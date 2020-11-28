@@ -14,4 +14,7 @@ public interface UserDao {
     void addUser(String username,String password,String name,String telephone,String sex,String age,String role);
 
     void insert(User user);
+
+    //修改密码
+    void forgetpwd(User user);
 }

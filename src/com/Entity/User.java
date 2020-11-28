@@ -18,6 +18,8 @@ public class User {
     //角色
     private String role;
 
+
+
     public int getUser_id() {
         return user_id;
     }
